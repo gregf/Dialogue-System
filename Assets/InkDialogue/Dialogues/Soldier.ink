@@ -1,5 +1,5 @@
 === Soldier ===
-{~->soldier1|->soldier2|->soldier3->}//picks rundom knot
+{~->soldier1|->soldier2|->soldier3->}//picks random knot
 ->END
 
 

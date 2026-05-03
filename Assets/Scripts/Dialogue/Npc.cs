@@ -2,9 +2,10 @@ using UnityEngine;
 
 
 [RequireComponent(typeof(CircleCollider2D))]
-public class QuestPoint : MonoBehaviour
+public class Npc : MonoBehaviour
 {
-    [Header("Dialogue name")]
+    [Header("Dialogue name \nName of the Npc you are trying to access:\n")]
+    //Case sensitive, must match knot name in ink file to work
     [SerializeField] private string dialogueKnotName;
 
     private bool PlayerIsNear = false;

@@ -2,9 +2,9 @@ using Ink.Runtime;
 using UnityEngine;
 public class DialogueManager : MonoBehaviour
 {
-    [Header("Ink Story")] [SerializeField] private TextAsset inkJson;
-
-
+    //handles everythng related to dialogue, starting it, ending it, and progressing it.
+    //Also holds reference to the ink story for easy access from other scripts if needed
+    [Header("Ink Story \n(Input Main Json file here)\n")] [SerializeField] private TextAsset inkJson;
     private Story story;
     private bool dialoguePlaying = false;
     private int currentChoiceIndex = -1;
